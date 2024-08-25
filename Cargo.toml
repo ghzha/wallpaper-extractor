@@ -1,0 +1,12 @@
+[package]
+name = "wallpaper-extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+binary_rw = { version = "4.1.0", features = ["string_len_u32"] }
+image = "0.25.2"
+lz4_flex = "0.11.3"
+num_enum = "0.7.3"
+squish = "=2.0.0-beta1"
