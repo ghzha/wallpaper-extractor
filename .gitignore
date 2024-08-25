@@ -2,3 +2,4 @@
 *.pkg
 /output
 *.png
+.DS_Store
